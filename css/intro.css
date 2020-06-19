@@ -1,0 +1,203 @@
+/*starting*/
+#webpage	{
+	width:1300px; 
+	height: auto;
+	border:0px;
+	font-family:Comic sans MS;
+}
+/*contact background*/
+#content .contact{
+	background-color:#ff9933;
+	width:1300px;
+	height:30px;
+	color:#000000;
+}
+/*contact email and mobile*/
+#content .contact .left{
+	float:left;
+	width:600px;
+	line-height:30px;
+	text-align:center;
+}
+/*contact icons*/
+#content .contact .right{
+	float:right;
+	width:600px;
+	height:30px;
+}
+/*adjust list somewhat upwards and towards left*/
+#content .contact .right ul{
+	list-style:none;
+	margin-left:300px;
+	margin-top:-15px;
+}
+/*for adjusting icon in one line*/
+#content .contact .right ul li{
+	float:left;
+	width:40px;
+	height:20px;
+}
+/*circular icons*/
+#content .contact .right ul li img{
+	opacity:0.5;
+	background-color:black;
+	border-radius:30px;
+}
+/*hovering*/
+#content .contact .right ul li img:hover{
+	opacity:1;
+}
+
+#content .block{
+	height:auto;
+	background-color:white;
+	text-align:justify;
+	padding:10px;
+}
+#content .block .quote{
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+}
+/*header of page*/
+#header{
+	background-color:#ff9933;
+	height:90px;
+	width:1300px;
+}
+/*sistec image*/
+#header .image{
+	float:left;
+	width:400px;
+	text-align:right;
+}
+/*adjusting dropdown*/
+#header .dropdown{
+	float:right;
+	width:700px;
+	text-align:center;
+}
+/*for disabling list style*/
+#header .dropdown ul{
+	list-style:none;
+}
+#header .dropdown ul  li{
+	float:left;
+	font-size:20px;
+	margin-top:15px;
+	width:125px;
+}
+#header .dropdown ul  li a
+{
+	text-decoration:none;
+	color:black;
+}
+/*hovering over dropdown*/
+#header .dropdown ul  li:hover{
+	background-color:#FFD973;
+	cursor:pointer;
+}
+
+#header .dropdown .table{
+	visibility:hidden;
+}
+#header .dropdown .table tr:hover{
+	background-color:#ff9933;
+}
+#content2 .image1{
+	background-image: url("../images/new.jpg");
+		min-height: 400px; 
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 700px 600px;
+}
+#content2 .footer{
+	float:left;
+	height:auto;
+	width:1300px;
+	background-color:#ff9933;
+	border-bottom:3px groove #ffd394;
+}
+#content2 .footer h3:hover{
+	color:black;
+	cursor:pointer;
+}
+#content2 .footer .right{
+	float:right;
+	margin-left:30px;
+	width:400px;
+	color:white;
+	font-family:comic sans MS;
+}
+#content2 .footer .right form input:hover,#content2 .footer .right form input:focus{
+	border:2px inset white;
+	background-color:white;
+	color:black;
+	box-shadow: 0px 5px 15px #888888;
+}
+#content2 .footer .right form input
+{
+	cursor:pointer;
+	background-color:#ffb448;
+	border:2px outset #ffd394;
+	color:white;
+}
+#content2 .footer .left{
+	float:left;
+	margin-left:30px;
+	width:400px;
+	height:auto;
+	color:white;
+	font-family:comic sans MS;
+}
+#content2 .footer .left ul li{
+	float:left;
+	list-style:none;
+	padding:10px;
+}
+#content2 .footer .left ul li img
+{
+	width:40px;
+	height:40px;
+	border-radius:50px;
+	background-color:black;
+	opacity:0.75;
+}
+#content2 .footer .left ul li img:hover
+{
+	width:40px;
+	height:40px;
+	border-radius:50px;
+	background-color:black;
+	opacity:1;
+}
+#content2 .footer .middle{
+	float:left;
+	margin-left:30px;
+	width:400px;
+	height:auto;
+	color:white;
+	font-family:comic sans MS;
+}
+
+#content2 .footer .middle ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+#content2 .footer .middle ul li:hover{
+	color:black;
+}
+.nav	{
+	position:fixed;
+	width:80px;
+	bottom:20px;
+	right:20px;
+	text-align: center;
+	border: 4px groove blue;
+	border-radius:60px;
+	color:yellow;
+	background-color:black;
+	z-index:99;
+	}

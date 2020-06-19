@@ -1,0 +1,7 @@
+<html>
+<body>
+    <object data="india2020" type="application/pdf">
+        <embed src="india2020" type="application/pdf" />
+    </object>
+</body>
+</html>

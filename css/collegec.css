@@ -1,0 +1,278 @@
+./*starting*/
+#webpage	{
+	width:1300px; 
+	height: auto;
+	border:0px;
+	font-family:Comic sans MS;
+}
+/*contact background*/
+#content .contact{
+	position:absolute;
+	background-color:#ff9933;
+	width:1300px;
+	height:30px;
+	color:#000000;
+	opacity:0.8;
+}
+#content .contact:hover{
+	background-color:#ff9933;
+	width:1300px;
+	height:30px;
+	color:#000000;
+	opacity:1;
+}
+/*contact email and mobile*/
+#content .contact .left{
+	float:left;
+	width:600px;
+	line-height:30px;
+	text-align:center;
+}
+/*contact icons*/
+#content .contact .right{
+	float:right;
+	width:600px;
+	height:30px;
+}
+/*adjust list somewhat upwards and towards left*/
+#content .contact .right ul{
+	list-style:none;
+	margin-left:300px;
+	margin-top:-15px;
+}
+/*for adjusting icon in one line*/
+#content .contact .right ul li{
+	float:left;
+	width:40px;
+	height:20px;
+}
+/*circular icons*/
+#content .contact .right ul li img{
+	opacity:0.5;
+	background-color:black;
+	border-radius:30px;
+}
+/*hovering*/
+#content .contact .right ul li img:hover{
+	opacity:1;
+}
+#content .parallax {
+	background-image:url("../images/apj1.jpg");
+		min-height: 600px;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size:1308px 680px;
+		
+}
+/*header of page*/
+#header{
+	margin-top:-100px;
+	background-color:#ff9933;
+	height:105px;
+	width:1300px;
+	opacity:0.8;
+}
+#header:hover{
+	margin-top:-100px;
+	background-color:#ff9933;
+	height:105px;
+	width:1300px;
+	opacity:1;
+}
+/*sistec image*/
+#header .image{
+	float:left;
+	width:400px;
+	text-align:right;
+	
+}
+/*adjusting dropdown*/
+#header .dropdown{
+	float:right;
+	width:700px;
+	text-align:center;
+	
+}
+/*for disabling list style*/
+#header .dropdown ul{
+	list-style:none;
+	
+}
+#header .dropdown ul  li{
+	float:left;
+	width:125px;
+	font-size:20px;
+	margin-top:25px;
+	
+}
+#header .dropdown ul  li a
+{
+	text-decoration:none;
+	color:black;
+}
+/*hovering over dropdown*/
+#header .dropdown ul  li:hover{
+	background-color:#FFD973;
+	cursor:pointer;
+}
+#header .dropdown ul  li table{
+	visibility:hidden;
+	position:absolute;
+	width:125px;
+	background-color:#FFD973;
+	z-index:99;
+}
+#header .dropdown ul  li table tr:hover{
+	background-color:#ff9933;
+	z-index:99;
+}
+#content2	{
+	width:1300px;
+	
+}
+#content2 .block{
+	width:1300px;
+	height:600px;
+}
+#content2 .block .cicon{
+	float:left;
+	width:350px;
+	padding-top:80px;
+	text-align:center;
+	font-weight:bold;
+	opacity:0.5;
+	
+}
+#content2 .block .cicon a{
+	text-decoration:none;
+	color:black;
+}
+#content2 .block .cicon:hover{
+	float:left;
+	width:350px;
+	padding-top:80px;
+	text-align:center;
+	font-weight:bold;
+	opacity:1;
+	cursor:pointer;
+}
+#content2 .block .cicon2{
+	float:right;
+	width:160px;
+	padding-top:80px;
+	text-align:center;
+	font-weight:bold;
+	opacity:0.5;
+}
+#content2 .block .cicon2:hover{
+	float:right;
+	width:160px;
+	padding-top:80px;
+	text-align:center;
+	font-weight:bold;
+	opacity:1;
+	cursor:pointer;
+}
+#content2 .block .cicon2 a
+{
+	text-decoration:none;
+	color:black;
+}
+
+#content2 .image1{
+	background-image: url("../images/apj2.jpg");
+		min-height: 400px; 
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+}
+#content2 .footer{
+	float:left;
+	height:auto;
+	width:1300px;
+	background-color:#ff9933;
+	border-bottom:3px groove #ffd394;
+}
+#content2 .footer h3:hover{
+	color:black;
+	cursor:pointer;
+}
+#content2 .footer .right{
+	float:right;
+	margin-left:30px;
+	width:400px;
+	color:white;
+	font-family:comic sans MS;
+}
+#content2 .footer .right form input:hover,#content2 .footer .right form input:focus{
+	border:2px inset white;
+	background-color:white;
+	color:black;
+	box-shadow: 0px 5px 15px #888888;
+}
+#content2 .footer .right form input
+{
+	cursor:pointer;
+	background-color:#ffb448;
+	border:2px outset #ffd394;
+	color:white;
+}
+#content2 .footer .left{
+	float:left;
+	margin-left:30px;
+	width:400px;
+	height:auto;
+	color:white;
+	font-family:comic sans MS;
+}
+#content2 .footer .left ul li{
+	float:left;
+	list-style:none;
+	padding:10px;
+}
+#content2 .footer .left ul li img
+{
+	width:40px;
+	height:40px;
+	border-radius:50px;
+	background-color:black;
+	opacity:0.75;
+}
+#content2 .footer .left ul li img:hover
+{
+	width:40px;
+	height:40px;
+	border-radius:50px;
+	background-color:black;
+	opacity:1;
+}
+#content2 .footer .middle{
+	float:left;
+	margin-left:30px;
+	width:400px;
+	height:auto;
+	color:white;
+	font-family:comic sans MS;
+}
+
+#content2 .footer .middle ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+#content2 .footer .middle ul li:hover{
+	color:black;
+}
+.nav	{
+	position:fixed;
+	width:80px;
+	bottom:20px;
+	right:20px;
+	text-align: center;
+	border: 4px groove blue;
+	border-radius:60px;
+	color:yellow;
+	background-color:black;
+	z-index:99;
+	}
